@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>FFBE Armory: Login</title>
+        <link rel="stylesheet" type="text/css" href="FFBE_Login.css">
+        <link rel="stylesheet" type="text/css" href="FFBE_Armory_Nav_Bar.css">
+
+        <!-- Navigation Bar -->
+        <div class="navbar">
+        <a href="FFBE_Login.html">Login</a>
+        <a href="#news">News/Info</a>
+        <div class="dropdown">
+        <button class="dropbtn">Armory
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+        <a href="How_To.html">How To Use Armory</a>
+        <a href="User_Units.html">Armory: Units</a>
+        <a href="User_Gear.html">Armory: Equipment</a>
+        <a href="Contact_Me.html">Contact Me</a>
+        </div>
+        </div>
+        </div> 
+    </head>
+
+    <body>
+        <form action="action_page.php">
+        <div class="imgcontainer">
+        <img src="ffbe_armory_logo.png">
+<!--         <img src="https://static.zerochan.net/Teito.Klein.full.484183.jpg">
+ -->        </div>
+
+        <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <button type="submit">Login</button>
+        <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+        </div>
+
+        <!-- Bottom of Page -->
+        <div class="container" style="background-color: powderblue;"> <!-- Original: #f1f1f1 -->  
+        <button type="button" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+        </form> 
+    </body>
+
+</html>
+
